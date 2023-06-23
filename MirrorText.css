@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background: #262626;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: rgb(231, 230, 230);
+    text-transform: uppercase;
+}
+h1:before {
+    content: "Growup with Programming";
+    transform-origin: bottom;
+    transform: rotateX(180deg);
+    position: absolute;
+    line-height: 0.90em;
+    background: linear-gradient(0deg, #fff 0, transparent 80%);
+    -webkit-background-clip: text;
+    color: transparent;
+    opacity: .3;
+  }
